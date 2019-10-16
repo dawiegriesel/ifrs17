@@ -10,3 +10,4 @@ $run_dev.*
 ^doc$
 ^Meta$
 ^C:\Users\DawieG\Documents\R\ifrs17/Dockerfile$
+^Dockerfile$
