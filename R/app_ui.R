@@ -5,7 +5,8 @@ app_ui <- function() {
     golem_add_external_resources(),
     # List the first level UI elements here 
     fluidPage(
-      h1("ifrs17")
+      h1("ifrs17"),
+      mod_data_import_ui("data_import_ui_1")
     )
   )
 }
