@@ -1,0 +1,27 @@
+Package: ifrs17
+Title: IFRS 17
+Version: 0.0.0.9000
+Authors@R: person('Dawie', 'Griesel', email = 'dawiegr@gmail.com', role = c('cre', 'aut'))
+Description: Application for IFRS 17 ETL and BI. It allows for multiple integrations to data sources including SQL, Excel, CSV files and API connections.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    shiny,
+    golem,
+    processx,
+    attempt,
+    DT,
+    glue,
+    htmltools,
+    dplyr,
+    ggplot2,
+    purrr
+RoxygenNote: 6.1.0
+Suggests: 
+    testthat (>= 2.1.0),
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
+URL: https://github.com/dmg73/ifrs
+BugReports: https://github.com/dmg73/ifrs/issues
